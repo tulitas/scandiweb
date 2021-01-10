@@ -29,7 +29,7 @@
             echo "<th>Price</th>";
             echo "<th>SKU</th>";
             echo "<th>Type</th>";
-            echo "<th>Details</th>";
+            echo "<th>Options</th>";
             echo "<th>Action</th>";
             echo "</tr>";
             echo "</thead>";
@@ -41,7 +41,7 @@
                 echo "<td>" . $row['price'] . "</td>";
                 echo "<td>" . $row['sku'] . "</td>";
                 echo "<td>" . $row['type'] . "</td>";
-                echo "<td>" . $row['details'] . "</td>";
+                echo "<td>" . $row['options'] . "</td>";
 
                 echo "<td>";
                 echo "<a href='readPage.php?id=". $row['id'] ."' title='View Record' data-toggle='tooltip'><span class='glyphicon glyphicon-eye-open'></span></a>";
